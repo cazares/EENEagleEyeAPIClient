@@ -11,6 +11,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.dependency 'AFNetworking', '~> 2.2.0'
+  s.dependency 'Mantle', '~> 1.4'
   s.ios.deployment_target = '7.0'
   s.osx.deployment_target = '10.8'
 end
